@@ -1,38 +1,163 @@
-.App {
-  text-align: center;
+.nav-link{
+    transition: all 0.1s;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-link:hover{
+    border-bottom: 1px solid rgb(221, 26, 26);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.maintitle{
+    color:rgb(221, 26, 26);
+    font-weight:600;
+    font-size: larger;
+    margin-bottom: 1em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.title{
+    color:rgb(221, 26, 26);
+    font-weight:600;
+    font-size: 2.5em;
+    margin-bottom: 1em;
 }
 
-.App-link {
-  color: #61dafb;
+.info{
+    font-size: 1.1em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title2{
+    margin-top: 1em;
+    color:white;
+    background-color: rgb(221, 26, 26);
+    font-size: xx-large;
+}
+
+vaxx{
+    padding: 1.5em;
+}
+
+.slideshow{
+    margin-top: 1em;
+}
+.slider{
+    padding: 0em;
+    margin: 0;
+    background-color: rgb(221, 26, 26);
+}
+
+.testbut{
+    margin-bottom: 1em;
+}
+
+.welcome{
+    margin-top: 3em;
+}
+
+.parking{
+    margin-top: 1.5em;
+    font-size: 1.1em;
+}
+
+.map{
+    margin-top: 1em;
+}
+
+footer{
+    height:auto;
+    width:100vw;
+    padding-top: 40px;
+}
+
+.footer-content{
+    padding-top: 1em;
+    border-top: 1px solid rgb(221, 26, 26);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3{
+    color:rgb(221, 26, 26);
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 1rem 0;
+}
+
+.socials a{
+    padding: 0.6em;
+}
+
+.socials a{
+    text-decoration: none;
+    color:black;
+}
+
+.socials a:hover{
+    color:rgb(221, 26, 26);
+    transition: all 0.5s;
+}
+
+
+.footer-bottom{
+    background:#F8F9FA;
+    width:100vw;
+    padding:20px 0;
+    text-align: center;
+}
+
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+
+.about{
+    margin-top: 3em;
+}
+
+.team{
+    margin-top: 3em;
+}
+
+.team-info{
+    margin-top: 3em;
+}
+
+.person{
+    color:white;
+    background-color: rgb(221, 26, 26);
+}
+
+.contact{
+    margin-top: 3em;
+}
+
+.contact h4{
+    color:rgb(221, 26, 26);
+}
+
+.contact li{
+    margin-top: 0.5em;
+}
+
+.pharm{
+    margin-top: 1em;
 }
