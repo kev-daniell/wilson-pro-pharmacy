@@ -126,6 +126,16 @@ export default function Navbar() {
                     Pharmacy Consultation
                   </a>
                 </li>
+                <li>
+                  <a
+                    href="https://www.bookmyshot.com/minorailment/416-630-0300"
+                    target="_blank"
+                    className="dropdown-item"
+                    rel="noreferrer"
+                  >
+                    Minor Ailments
+                  </a>
+                </li>
               </ul>
             </li>
             <a className="nav-link" href="/contact">
