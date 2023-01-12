@@ -1,6 +1,12 @@
+import { logEvent } from "firebase/analytics";
+import { useEffect } from "react";
+import { analytics } from "../firebaseConfig";
 import image from "./images/about.jpg";
 
 export default function About() {
+  useEffect(() => {
+    logEvent(analytics, "about_page_view");
+  }, []);
   return (
     <section className="container about">
       <div className="row">

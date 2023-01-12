@@ -1,11 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import one from "./images/one.jpg";
 import two from "./images/two.jpg";
 import three from "./images/three.jpg";
 import four from "./images/four.jpg";
 import vector from "./images/vector.jpg";
+import { logEvent } from "firebase/analytics";
+import { analytics } from "../firebaseConfig";
 
 export default function Home() {
+  useEffect(() => {
+    logEvent(analytics, "home_page_view");
+  }, []);
   return (
     <div>
       <div className="slideshow container">
