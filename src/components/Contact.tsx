@@ -1,6 +1,12 @@
+import { logEvent } from "firebase/analytics";
+import { useEffect } from "react";
+import { analytics } from "../firebaseConfig";
 import image from "./images/pharmacy.jpg";
 
 export default function Contact() {
+  useEffect(() => {
+    logEvent(analytics, "contact_page_view");
+  }, []);
   return (
     <div className="container">
       <div className="row">
