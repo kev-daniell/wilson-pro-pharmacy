@@ -108,12 +108,12 @@ export default function Navbar() {
                 </li>
                 <li>
                   <a
-                    href="https://www.bookmyshot.com/hpv/416-630-0300"
+                    href="https://www.bookmyshot.com/vaccines/416-630-0300"
                     target="_blank"
                     className="dropdown-item"
                     rel="noreferrer"
                   >
-                    HPV Vaccine
+                    Other Vaccines
                   </a>
                 </li>
                 <li>

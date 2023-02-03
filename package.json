@@ -19,6 +19,7 @@
     "web-vitals": "^2.1.0"
   },
   "scripts": {
+    "fbstart":"firebase emulators:start --only hosting",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
